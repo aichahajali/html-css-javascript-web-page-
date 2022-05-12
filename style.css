@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+p{
+    font-weight: 300;
+    color: #111;
+}
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 20px 10px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.5s;
+}
+.logo{
+    color: #60c156; /*couleur du reste du logo*/
+    font-weight: bold;
+    font-size: 2.5em;
+    text-decoration: none;
+}
+
+.logo span{
+    color: #1f231f; /* couleur des deux premiers lettres du logo*/
+    margin-left: -225px;
+}
+
+.navbar{
+    display: flex;
+    position: relative;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 700;
+}
+
+.btn-reserve{
+    padding: 10px 20px;
+    background: #FFD801;
+   margin-top: -10px;
+   text-transform:uppercase ;
+}
+
+.btn-reserve:hover{
+    background: #FFD801;
+    transition: ease-out;
+}
+
+header .navbar li a:hover{
+    color: #FFD801;
+    border-bottom: 2px solid #FFD801;
+}
+
+
+.center { 
+    height: 500px;
+    width: 500px;
+    background: #ffffff;
+    position:relative ;
+    box-shadow: 0 4px 8px 0 rgb(204, 225, 204), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    top: 0%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -300px; 
+    background-repeat: no-repeat;
+   }
+
+section{
+    padding: 100px;
+}
+.row{
+    position: relative;
+    width: 100%; /* el 3ordh mta3 l page */
+    display: flex;
+    justify-content: space-between;
+}
+.row .col50{
+    position: relative;
+    width: 48%;
+    justify-content: center;
+    align-items: center;
+
+}
+ .form{
+    padding-top: 155px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    position:static ;
+
+    }
+    header.sticky{
+        background: #fff;
+        padding: 5px 300px;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.0);
+    }
+    
+    header.sticky .navbar li a {
+        color: rgb(0, 0, 0);
+    }
+    
+    header.sticky li a:hover{
+        color: #FFD801;
+        border-bottom: 2px solid #FFD801;
+    }
+    .copyright{
+        padding: 20px 40px;
+        border-top: 2px solid rgba(0,0,0, 0.1);
+        background: rgba(228,222,222,);
+        text-align: center;
+    }
+    
+    .copyright p:nth-child(1){
+        color: #333;
+    }
+    
+    .copyright a {
+        color: #333;
+        text-decoration: none;
+        font-weight: 600;
+        font-style: italic;
+    
+
+header.sticky .menuToggle{
+    filter: invert(3);
+}
+
+.row .col50 img{
+    margin-left: 500%;
+}
+
+.menu{
+    margin-top:200 px;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+}

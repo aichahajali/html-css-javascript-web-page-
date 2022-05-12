@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	  <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+      <link rel = "preconnect" href = "https://fonts.gstatic.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <script src=".js"> </script>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+      <title> Bee Nesgui </title>
+     </head>
+     <header>
+        <a href="#" class="logo"><span>Bee</span>Nesgui <img src='assets\bee.png'height="40px" width="40px"/> </a> <!--le logo a l'interieur de la page-->
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <ul class="navbar">
+            <li><a href="#banniere" onclick="toggleMenu();">Humidite&pompe</a></li>
+            <li><a href="#menu" onclick="toggleMenu();">Camera</a></li>
+            <li><a href="#apropos" onclick="toggleMenu();">A propos</a></li>
+        </ul>
+    </header>
+    <section class="banniere" id="banniere">
+    </section>
+    <body bgcolor="#c3d8b6">
+     <center>
+        <h1 style="font-family: Helvetica;color: black;">  </h1>
+        </center>
+    <section>
+	    <div class="center">
+	         <div align="center" class="form">
+                  
+				  <p style = 'line-height: 60px;font-family: Helvetica;color: rgb(0, 0, 0);font-size: 50px;' id="humidity">
+					 <img src = 'assets/humidity.gif' height="60px" width="60px" style='vertical-align: middle' /> 00.00		
+                  </p>
+			      <p style = 'line-height: 120px;font-family: Helvetica;color: rgb(0, 0, 0);font-size: 30px;' id="pompe">
+                    l'état de la pompe à eau                  </p>
+             </div> 
+        </div>
+    </section>
+        <section class="apropos" id="apropos">
+            <div class="row">
+                <div class="col50">
+                    <h2 class="titre-texte"><span>A</span> Propos De Nous</h2>
+                    <p>
+                        Dans un contexte de réchauffement climatique et de sécheresse de plus en plus régulier, 
+                        La préservation de l’eau devient un enjeu majeur. Quand on sait que l’agriculture représente 70% 
+                        de la consommation d’eau globale dans le monde, il est nécessaire de trouver des solutions 
+                        pour la diminuer.Les nouvelles technologies représentent une réelle opportunité pour que la transformation numérique profite également au secteur de l’agriculture.
+                         
+                        Les technologies IoT peuvent ainsi servir cet usage de réduction de consommation d’eau via une gestion plus automatisée.
+                        Les technologies IoT permettent le pilotage d’une exploitation agricole afin d’ouvrir ou fermer, à la demande d’un agriculture, les vannes d’irrigation.                        
+                    </p>
+                 </div>
+            </div>
+        </section>
+        <div class="copyright">
+            <p>copyright 2022 <a href="#">Aicha Ben Hadjali</a> PFA IE4</p>
+        </div>
+    </body>
+</html>  
